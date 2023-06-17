@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#74D9E6"
+    tools:context=".ResultadoActivity">
+
+    <Button
+        android:id="@+id/buttonVoltar"
+        android:layout_width="189dp"
+        android:layout_height="71dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="112dp"
+        android:backgroundTint="#0E40BF"
+        android:fontFamily="sans-serif-black"
+        android:text="VOLTAR"
+        android:textColor="#ECE4E4"
+        android:textSize="32sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageResultado"
+        android:layout_width="225dp"
+        android:layout_height="217dp"
+        android:layout_marginStart="93dp"
+        android:layout_marginTop="53dp"
+        android:layout_marginEnd="93dp"
+        android:src="@drawable/cara"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/resultadoTextView"
+        android:layout_width="192dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="109dp"
+        android:layout_marginTop="59dp"
+        android:layout_marginEnd="110dp"
+        android:layout_marginBottom="130dp"
+        android:background="#FDFBFB"
+        android:fontFamily="sans-serif-black"
+        android:text="Cara"
+        android:textAlignment="center"
+        android:textColor="#090909"
+        android:textSize="32sp"
+        app:layout_constraintBottom_toTopOf="@+id/buttonVoltar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageResultado" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
